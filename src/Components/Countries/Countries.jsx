@@ -9,7 +9,7 @@ const Countries = ({ countriesPromise }) => {
     return (
         <div>
             <h1 className='text-2xl md:text-4xl font-bold text-center'>All Countries</h1>
-            <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+            <div className='mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 {
                     countries.map(country => <Country key={country.ccn3.ccn3} country={country}></Country>)
                 }
